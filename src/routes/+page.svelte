@@ -10,6 +10,8 @@
    <meta name="author" content={meta.author} />
    <meta name="keywords" content={meta.keywords} />
    <meta name="description" content={meta.description} />
+   <meta name="og:image" content={meta.cover} />
+   <meta name="twitter:image" content={meta.cover} />
 </svelte:head>
 
 <section class="container">
