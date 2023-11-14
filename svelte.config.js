@@ -17,10 +17,15 @@ const config = {
     // If your environment is not supported or you settled on a specific environment, switch out the adapter.
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
+    paths: {
+      // You may omit this if your blog is your root domain (ex. your-name.github.io)
+      // Otherwise, you must also include the path in all urls
+      base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+    },
     alias: {
       '$components': 'src/components',
       '$content': 'src/content'
-    }
+    },
   },
   extensions: [".svelte", ".md"],
 };

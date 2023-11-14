@@ -1,5 +1,9 @@
 <script>
    import "highlight.js/styles/atom-one-dark.css";
+   
+   // You only need this if your blog isn't on your root GitHub
+   // domain (ex. your-name.github.io)
+   import { base } from "$app/paths";
 
    export let data;
 
@@ -18,9 +22,9 @@
          <li><strong>GH Smoothie</strong></li>
       </ul>
       <ul>
-         <li><a href="/">Home</a></li>
-         <li><a href="/about">About</a></li>
-         <li><a href="/blog">Blog</a></li>
+         <li><a href={`${base}/`}>Home</a></li>
+         <li><a href={`${base}/about`}>About</a></li>
+         <li><a href={`${base}/blog`}>Blog</a></li>
       </ul>
    </nav>
 </header>
@@ -31,5 +35,4 @@
 
 <style>
    @import "/styles/default.css";
-   
 </style>
