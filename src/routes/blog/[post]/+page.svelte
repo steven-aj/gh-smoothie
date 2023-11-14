@@ -1,4 +1,8 @@
 <script>
+	// You only need this if your blog isn't on your root GitHub
+   // domain (ex. your-name.github.io)
+   import { base } from "$app/paths";
+
 	export let data;
 
 	let { meta, content } = data;
@@ -7,7 +11,7 @@
 <h1>{meta.title}</h1>
 
 {#if meta.cover}
-	<img class="container-fluid cover" alt={meta.title} src={meta.cover} />
+	<img class="container-fluid cover" alt={meta.title} src={base+meta.cover} />
 {/if}
 
 <section>
