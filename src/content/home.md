@@ -1,6 +1,6 @@
 ---
 title: Welcome to Smoothie
-cover: 
+cover: /assets/covers/smoothie.jpeg
 author: Steven Johnson
 email: devtheory@icloud.com
 description: Smoothie is a hackable blogging framework for GitHub Pages built with SvelteKit. Content is markdown rendered to HTML and intended to be managed with Obsidian.
