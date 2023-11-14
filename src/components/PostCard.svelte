@@ -1,4 +1,8 @@
 <script>
+   // You only need this if your blog isn't on your root GitHub
+   // domain (ex. your-name.github.io)
+   import { base } from "$app/paths";
+
    export let post;
 </script>
 
@@ -10,7 +14,7 @@
    {post.excerpt}
 
    <footer>
-      <a href={post.path} role="button">Read Article</a>
+      <a href={base+post.path} role="button">Read Article</a>
    </footer>
 </article>
 
