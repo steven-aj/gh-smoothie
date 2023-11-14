@@ -1,0 +1,8 @@
+@import "./pico.min.css";
+
+section.posts > .grid {
+   display: grid;
+   grid-template-columns: repeat(1fr, 3);
+   grid-template-rows: auto;
+   gap: 1.5rem;
+}
