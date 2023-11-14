@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "singles/a-published-post.md",
+                "file": "home.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "singles/a-published-post.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "singles/a-published-post.md",
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "singles/a-published-post.md"
+                "file": "home.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "fdc5788c7a11a0e9",
   "lastOpenFiles": [
+    "singles/a-published-post.md",
     "home.md",
     "about.md",
-    "singles/a-published-post.md",
     "singles/another-published-oster.md",
     "_templates/post-single.md",
     "_templates/page.md",

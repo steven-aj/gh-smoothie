@@ -17,7 +17,7 @@ keywords:
 
 Smoothie is a markdown-driven blogging framework for GitHub Pages built with SvelteKit. It was intended to be hacked to your heart's content, so feel free to fork it to get started.
 
-Learn more on the [About](/about) page.
+Learn more on the About page.
 
 ***
 
@@ -25,7 +25,7 @@ Learn more on the [About](/about) page.
 
 Obsidian makes managing your Smoothie blog easy. This framework comes pre-installed with an Obsidian Vault and front-matter templates to help you hit the ground running.
 
-Learn more on the [About](/about) page.
+Learn more on the About page.
 
 ***
 
